@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100">
       {/* Header */}
-      <header className="bg-white shadow-lg border-b-4 border-green-500">
+      <header className="bg-white shadow-lg border-b-4 border-black-500">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -107,8 +107,8 @@ function App() {
                   onClick={() => setActiveTab(tab.id)}
                   className={`px-4 py-3 text-sm font-medium rounded-t-lg transition-all duration-200 flex items-center space-x-2 ${
                     activeTab === tab.id
-                      ? 'bg-blue-600 text-white shadow-md'
-                      : 'text-gray-600 hover:text-blue-600 hover:bg-blue-50'
+                      ? 'bg-green-600 text-white shadow-md'
+                      : 'text-gray-600 hover:text-green-600 hover:bg-green-50'
                   }`}
                 >
                   <Icon className="w-4 h-4" />
