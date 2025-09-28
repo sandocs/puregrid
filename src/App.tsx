@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100">
       {/* Header */}
-      <header className="bg-white shadow-lg border-b-4 border-black-500">
+      <header className="bg-white shadow-lg border-b-1 border-black-500">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -97,7 +97,7 @@ function App() {
 
       {/* Navigation Tabs */}
       <nav className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6 py-3">
           <div className="flex space-x-1">
             {tabs.map((tab) => {
               const Icon = tab.icon;
