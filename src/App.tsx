@@ -97,7 +97,7 @@ function App() {
 
       {/* Navigation Tabs */}
       <nav className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-6 py-3">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="flex space-x-1">
             {tabs.map((tab) => {
               const Icon = tab.icon;
