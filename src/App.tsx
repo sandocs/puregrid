@@ -72,7 +72,7 @@ function App() {
                   <Zap className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-bold text-gray-800">HREGS</h1>
+                  <h1 className="text-2xl font-bold text-gray-800">PureGrid</h1>
                   <p className="text-sm text-gray-600">Hybrid Renewable Energy Generation Solution</p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">About HREGS</h3>
+              <h3 className="text-lg font-semibold mb-4">About PureGrid</h3>
               <p className="text-gray-300 text-sm">
                 A vendor-neutral software framework for optimizing hybrid renewable energy systems 
                 across public sector campuses in Rajasthan.
@@ -156,7 +156,7 @@ function App() {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-4 text-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Government of Rajasthan. Built for sustainable energy management.
+              © 2025 Tech Titans 2.0. Built for sustainable energy management.
             </p>
           </div>
         </div>
